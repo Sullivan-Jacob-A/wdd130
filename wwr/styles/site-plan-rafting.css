@@ -9,7 +9,7 @@ Fonts are separated by a & */
   --primary-color: #114B5F   ;
   --secondary-color: #3BA5A5 ;
   --accent1-color: #85FFC7;
-  --accent2-color: #6C464F;
+  --accent2-color: #EAE8ED;
 
   /* change the values below to your chosen font(s) */
   --heading-font: Quicksand;
@@ -19,8 +19,8 @@ Fonts are separated by a & */
   --headline-color-on-white: #114B5F;  /* headlines on a #6C464F background */ 
   --headline-color-on-color: #85FFC7; /* headlines on a colored background */ 
   --paragraph-color-on-: #114B5F; /* paragraph text on a #6C464F background */ 
-  --paragraph-color-on-color: #85FFC7; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #114B5F  ;
+  --paragraph-color-on-color: #EAE8ED; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #3BA5A5  ;
   --nav-link-color: #85FFC7;
   --nav-background-color:  #114B5F;
   --nav-hover-link-color: #114B5F;
@@ -44,7 +44,7 @@ img {
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
-  color: var(--headline-color-on-#6C464F);
+  color: var(--headline-color-on-white);
 }
 h2 {
   text-align: center;
@@ -65,7 +65,7 @@ header > h1, header > h2 {
 }
 p {
   font-family: var(--paragraph-font);
-  color: var(--paragraph-color-on-#6C464F);
+  color: var(--paragraph-color-on-white);
   padding: 1em;
 }
 .colors {
