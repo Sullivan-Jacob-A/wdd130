@@ -1,0 +1,40 @@
+body {
+    background-color: lightskyblue;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+h1:hover {
+    color:black
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}
+
+ol {
+    color: black;
+    padding: 0;
+    margin-left: 15px;
+}
+
+footer {
+    color: black;
+    text-align: center;
+}
+
+p {
+   font-size: .7em; 
+}
