@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
 body {
     background-color: aquamarine;
 }
@@ -26,13 +28,14 @@ H1 {
     text-align: center;
 }
 
-p,
-h5 {
+p, h5 {
+    width: 60%;
     text-align: center;
+    margin: 0 auto;
 }
 
 img {
-    width: 30%;
+    width: 60%;
     display: block;
     margin: 0 auto;
 }
@@ -44,4 +47,11 @@ img {
 
 header, footer {
     background-color: aqua;
+}
+
+main p {
+    border: 5px solid black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 30px;
 }
